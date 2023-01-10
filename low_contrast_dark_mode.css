@@ -1,0 +1,404 @@
+#outer .region,
+#footer .group,
+.post fieldset fieldset,
+fieldset fieldset {
+  background: none;
+}
+
+body,
+.group,
+.group .group,
+.region,
+.flash,
+fieldset,
+fieldset fieldset ul,
+form dl,
+#main .verbose legend,
+.verbose fieldset,
+ul.notes,
+table,
+th,
+td:hover,
+tr:hover,
+#modal,
+.ui-sortable li,
+.required .autocomplete,
+.system .intro,
+.comment_error,
+.kudos_error,
+div.dynamic,
+.dynamic form,
+#ui-datepicker-div,
+.ui-datepicker table {
+  background: #1e1e1e;
+  color: #9a9a9a;
+  border-color: #3e3e3e;
+  outline: #2e2e2e;
+  box-shadow: none;
+}
+
+.symbol .question:hover {
+  background: #aa1818;
+  color: #cecece;
+}
+
+#header .dropdown:hover a,
+#header .actions a:hover,
+#header .actions a:focus,
+#header .open a,
+#header .menu,
+#header .menu li,
+#small_login,
+form blockquote.userstuff,
+li.relationships a,
+.notice,
+form .notice,
+form ul.notes,
+input,
+textarea,
+.search [role="tooltip"],
+.splash .favorite li:nth-of-type(odd) a,
+.statistics .index li:nth-of-type(even),
+.dropdown,
+.autocomplete input,
+.autocomplete div.dropdown ul,
+.autocomplete .dropdown ul li,
+.autocomplete .dropdown li.selected,
+.autocomplete .notice {
+  background: #2e2e2e;
+  color: #9a9a9a;
+  border-color: #3e3e3e;
+  box-shadow: none;
+}
+
+fieldset fieldset.listbox,
+.group.listbox .index,
+.dashboard fieldset fieldset.listbox .index,
+#dashboard .secondary,
+.secondary,
+.thread .even,
+.system .tweet_list li,
+.ui-datepicker tr:hover,
+.required-tags .rating-notrated,
+.required-tags .category-none,
+.required-tags .warning-no,
+.status .count {
+  outline: 1px solid #3e3e3e;
+  background: #1e1e1e;
+}
+
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus,
+#header #search input:focus,
+#header #search input:hover,
+#header .dropdown .menu a:hover,
+#header .dropdown .menu a:focus,
+.autocomplete .dropdown ul li:hover,
+.ui-datepicker td:hover,
+#tos_prompt .heading,
+#tos_prompt [disabled] {
+  background: #3e3e3e;
+  color: #cecece;
+}
+
+dl.index dd,
+.group.listbox,
+#outer,
+.javascript,
+#tos_prompt,
+.announcement input[type="submit"] {
+  background: #1e1e1e;
+}
+
+#header ul.primary,
+#outer #footer,
+.toggled form {
+  background: #970000;
+  color: #cecece;
+  box-shadow: none;
+}
+
+#footer,
+#dashboard ul,
+dl.meta,
+.group.listbox,
+fieldset fieldset.listbox,
+#main li.blurb,
+form blockquote.userstuff,
+div.comment,
+li.comment,
+.toggled form,
+form dl dt,
+form.single fieldset,
+#inner .module .heading,
+.bookmark .status span,
+.splash .news li,
+.filters .group dt.bookmarker,
+.picture .header {
+  border-color: #3e3e3e;
+}
+
+.group.listbox,
+fieldset fieldset.listbox,
+#main li.blurb,
+.wrapper,
+#dashboard .secondary,
+.secondary,
+form blockquote.userstuff,
+.thread .comment,
+.toggled form {
+  box-shadow: none;
+}
+
+#dashboard .current,
+.actions a:active,
+#outer .current,
+a.current,
+.current a:visited,
+span.unread,
+.replied,
+span.claimed,
+.own,
+.draft,
+.draft .unread,
+.child,
+.unwrangled,
+.unreviewed,
+.ui-sortable li:hover {
+  background: #3e3e3e;
+  border-color: #3e3e3e;
+  box-shadow: none;
+}
+
+#dashboard a:hover,
+th {
+  background: #2e2e2e;
+  color: #cecece;
+  border-color: #3e3e3e;
+  box-shadow: none;
+}
+
+li.blurb,
+.blurb .blurb,
+.listbox .index,
+fieldset fieldset.listbox,
+.dashboard .listbox .index {
+  border-color: #3e3e3e;
+  box-shadow: none;
+}
+
+#footer a:link:hover,
+a.tag:hover,
+.listbox .heading a.tag:visited:hover,
+.symbol .question,
+.qtip-content {
+  background: #970000;
+  color: #cecece;
+  box-shadow: none;
+}
+
+.splash .favorite li:nth-of-type(odd) a:hover,
+.splash .favorite li:nth-of-type(odd) a:focus {
+  background: #970000;
+  color: #cecece;
+}
+
+#header .heading a,
+#header .heading a:visited {
+  color: #970000;
+}
+
+#header .heading a:hover,
+#header .heading a:focus,
+#header #greeting img,
+.actions a:hover,
+.actions input:hover,
+.delete a,
+span.delete,
+span.unread,
+.replied,
+span.claimed,
+.draggable,
+.droppable,
+span.requested,
+a.work,
+.blurb h4 a:link,
+.blurb h4 img,
+.splash .module h3,
+.splash .browse li a:before,
+.required,
+.error,
+.comment_error,
+.kudos_error,
+a.cloud7,
+a.cloud8,
+#tos_prompt .heading {
+  color: #aa1818;
+}
+
+#greeting .icon,
+#dashboard,
+#dashboard.own,
+.error,
+.comment_error,
+.kudos_error,
+.LV_invalid,
+.LV_invalid_field,
+input.LV_invalid_field:hover,
+input.LV_invalid_field:active,
+textarea.LV_invalid_field:hover,
+textarea.LV_invalid_field:active,
+.qtip-content {
+  border-color: #970000;
+}
+
+a,
+a:link,
+a.tag,
+#header a,
+#header a:visited,
+#header .primary .dropdown:hover a,
+#dashboard a,
+#dashboard span,
+#dashboard .current,
+.heading,
+.group .heading,
+.filters dt a:hover,
+.footnote,
+p.character_counter {
+  color: #9a9a9a;
+}
+
+a:link:hover,
+#header .primary .open a,
+#header .primary .dropdown a:hover,
+#header .primary .dropdown a:focus,
+#header .primary .a:hover,
+#header .primary a:focus,
+#header .user a:hover,
+#header .user a:focus,
+#header fieldset,
+#header form,
+#header p,
+.bookmark .count a:hover {
+  color: #cecece;
+}
+
+a:visited,
+.actions a:visited,
+.action a:link,
+.action a:visited,
+.listbox .heading a:visited,
+span.series .divider {
+  color: #cecece;
+}
+
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+.actions input,
+input[type="radio"],
+input[type="checkbox"],
+input[type="file"],
+input[type="submit"],
+button,
+.current,
+.actions label,
+#header .actions a {
+  background: #2e2e2e;
+  border-color: #3e3e3e;
+  color: #9a9a9a;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+.actions a:hover,
+.actions input:hover,
+.actions a:focus,
+.actions input:focus,
+#dashboard a:focus,
+input[type="submit"]:hover {
+  background: #3e3e3e;
+  color: #cecece;
+  border-color: #3e3e3e;
+  box-shadow: none;
+}
+
+.actions a:active,
+.current,
+a.current,
+.current a:visited {
+  color: #cecece;
+  background: #3e3e3e;
+  border-color: #fff;
+  box-shadow: none;
+}
+
+.delete a,
+span.delete {
+  box-shadow: none;
+}
+
+ul.required-tags,
+.bookmark .status span,
+.blurb .icon {
+  opacity: 0.9;
+  border: 0;
+}
+
+#footer a:link,
+#footer a:hover,
+#footer a:focus,
+#outer .group .heading,
+#header .actions a,
+#header .user a,
+fieldset.listbox .heading,
+.userstuff .heading,
+.heading,
+.userstuff h2 {
+  text-shadow: none;
+  color: #9a9a9a;
+  background: none;
+}
+
+#header .actions a,
+fieldset fieldset,
+.mce-container button {
+  box-shadow: none;
+}
+
+fieldset fieldset.listbox {
+  outline: none;
+}
+
+form dd.required {
+  color: #cecece;
+}
+
+.mce-container input:focus {
+  background: #F3EFEC;
+}
+
+.announcement .userstuff a,
+.announcement .userstuff a:link,
+.announcement .userstuff a:visited:hover {
+  color: #cecece;
+}
+
+.announcement .userstuff a:visited {
+  color: #666;
+}
+
+.announcement .userstuff a:hover,
+.announcement .userstuff a:focus {
+  color: #2e2e2e;
+}
+
+.event.announcement .userstuff a,
+.filters .expander,
+.filters .expanded .expander {
+  color: #9a9a9a;
+}
