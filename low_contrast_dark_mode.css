@@ -11,7 +11,6 @@ body,
 .group,
 .group .group,
 .region,
-.flash,
 fieldset,
 fieldset fieldset ul,
 form dl,
@@ -27,11 +26,11 @@ tr:hover,
 .required .autocomplete,
 .system .intro,
 .comment_error,
-.kudos_error,
 div.dynamic,
 .dynamic form,
 #ui-datepicker-div,
-.ui-datepicker table {
+.ui-datepicker table,
+.toggled form {
   background: #1e1e1e;
   color: #9a9a9a;
   border-color: #3e3e3e;
@@ -66,7 +65,8 @@ textarea,
 .autocomplete div.dropdown ul,
 .autocomplete .dropdown ul li,
 .autocomplete .dropdown li.selected,
-.autocomplete .notice {
+.autocomplete .notice,
+.flash {
   background: #2e2e2e;
   color: #9a9a9a;
   border-color: #3e3e3e;
@@ -115,8 +115,7 @@ dl.index dd,
 }
 
 #header ul.primary,
-#outer #footer,
-.toggled form {
+#outer #footer {
   background: #970000;
   color: #cecece;
   box-shadow: none;
@@ -131,7 +130,6 @@ fieldset fieldset.listbox,
 form blockquote.userstuff,
 div.comment,
 li.comment,
-.toggled form,
 form dl dt,
 form.single fieldset,
 #inner .module .heading,
@@ -149,8 +147,7 @@ fieldset fieldset.listbox,
 #dashboard .secondary,
 .secondary,
 form blockquote.userstuff,
-.thread .comment,
-.toggled form {
+.thread .comment {
   box-shadow: none;
 }
 
@@ -231,9 +228,6 @@ a.work,
 .splash .module h3,
 .splash .browse li a:before,
 .required,
-.error,
-.comment_error,
-.kudos_error,
 a.cloud7,
 a.cloud8,
 #tos_prompt .heading {
@@ -242,7 +236,10 @@ a.cloud8,
 
 #greeting .icon,
 #dashboard,
-#dashboard.own,
+#dashboard.own {
+  border-color: #970000;
+}
+
 .error,
 .comment_error,
 .kudos_error,
@@ -251,9 +248,11 @@ a.cloud8,
 input.LV_invalid_field:hover,
 input.LV_invalid_field:active,
 textarea.LV_invalid_field:hover,
-textarea.LV_invalid_field:active,
-.qtip-content {
-  border-color: #970000;
+textarea.LV_invalid_field:active {
+  background: #2e2e2e;
+  color: #aa1818;
+  border-color: #aa1818;
+  box-shadow: none;
 }
 
 a,
