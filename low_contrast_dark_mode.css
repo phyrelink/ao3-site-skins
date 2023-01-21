@@ -155,7 +155,6 @@ form blockquote.userstuff,
 .actions a:active,
 #outer .current,
 a.current,
-.current a:visited,
 span.unread,
 .replied,
 span.claimed,
@@ -223,7 +222,9 @@ span.claimed,
 .droppable,
 span.requested,
 a.work,
+.listbox .heading a:visited,
 .blurb h4 a:link,
+.blurb h4 a:visited,
 .blurb h4 img,
 .splash .module h3,
 .splash .browse li a:before,
@@ -257,15 +258,21 @@ textarea.LV_invalid_field:active {
 
 a,
 a:link,
+a:visited,
 a.tag,
+a.tag:visited,
 #header a,
 #header a:visited,
 #header .primary .dropdown:hover a,
 #dashboard a,
 #dashboard span,
 #dashboard .current,
+#footer a:visited,
+.action a:visited,
+.actions a:visited,
 .heading,
 .group .heading,
+.listbox .heading a.tag:visited,
 .filters dt a:hover,
 .footnote,
 p.character_counter {
@@ -283,15 +290,12 @@ a:link:hover,
 #header fieldset,
 #header form,
 #header p,
+#footer a:visited:hover,
 .bookmark .count a:hover {
   color: #cecece;
 }
 
-a:visited,
-.actions a:visited,
 .action a:link,
-.action a:visited,
-.listbox .heading a:visited,
 span.series .divider {
   color: #cecece;
 }
@@ -383,6 +387,7 @@ form dd.required {
   background: #F3EFEC;
 }
 
+a:visited:hover,
 .announcement .userstuff a,
 .announcement .userstuff a:link,
 .announcement .userstuff a:visited,
