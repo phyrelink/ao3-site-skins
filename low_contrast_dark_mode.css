@@ -318,6 +318,7 @@ button,
   color: #9a9a9a;
   box-shadow: none;
   text-shadow: none;
+  -webkit-appearance: none;
 }
 
 .actions a:hover,
@@ -330,6 +331,8 @@ input[type="submit"]:hover {
   color: #cecece;
   border-color: #3e3e3e;
   box-shadow: none;
+  cursor: pointer;
+  -webkit-appearance: none;
 }
 
 .actions a:active,
