@@ -246,9 +246,7 @@ a.cloud8,
 .kudos_error,
 .LV_invalid,
 .LV_invalid_field,
-input.LV_invalid_field:hover,
 input.LV_invalid_field:active,
-textarea.LV_invalid_field:hover,
 textarea.LV_invalid_field:active {
   background: #2e2e2e;
   color: #aa1818;
@@ -305,8 +303,6 @@ span.series .divider {
 .action,
 .action:link,
 .actions input,
-input[type="radio"],
-input[type="checkbox"],
 input[type="file"],
 input[type="submit"],
 button,
@@ -407,4 +403,10 @@ a:visited:hover,
 .filters .expander,
 .filters .expanded .expander {
   color: #9a9a9a;
+}
+
+form.search input[type="text"] {
+  border-top-color: #3e3e3e;
+  padding: .15em .25em;
+  border-radius: 0em;
 }
