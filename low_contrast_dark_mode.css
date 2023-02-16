@@ -278,6 +278,7 @@ p.character_counter {
 }
 
 a:link:hover,
+.event.announcement .userstuff a:hover,
 #header .primary .open a,
 #header .primary .dropdown a:hover,
 #header .primary .dropdown a:focus,
@@ -399,6 +400,7 @@ a:visited:hover,
   color: #2e2e2e;
 }
 
+.event .userstuff,
 .event.announcement .userstuff a,
 .filters .expander,
 .filters .expanded .expander {
