@@ -109,9 +109,13 @@ dl.index dd,
 .group.listbox,
 #outer,
 .javascript,
-#tos_prompt,
-.announcement input[type="submit"] {
+#tos_prompt {
   background: #1e1e1e;
+}
+
+.announcement input[type="submit"] {
+  background: #2e2e2e;
+  border-color: #3e3e3e;
 }
 
 #header ul.primary,
