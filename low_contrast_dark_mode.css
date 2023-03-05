@@ -66,6 +66,7 @@ textarea,
 .autocomplete .dropdown ul li,
 .autocomplete .dropdown li.selected,
 .autocomplete .notice,
+.actions input,
 .flash {
   background: #2e2e2e;
   color: #9a9a9a;
@@ -307,7 +308,6 @@ span.series .divider {
 .actions a:link,
 .action,
 .action:link,
-.actions input,
 input[type="file"],
 input[type="submit"],
 button,
@@ -323,9 +323,7 @@ button,
 }
 
 .actions a:hover,
-.actions input:hover,
 .actions a:focus,
-.actions input:focus,
 #dashboard a:focus,
 input[type="submit"]:hover {
   background: #3e3e3e;
