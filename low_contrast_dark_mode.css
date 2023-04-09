@@ -411,8 +411,10 @@ a:visited:hover,
   color: #9a9a9a;
 }
 
-form.search input[type="text"] {
+form.search input[type="text"],
+form.search input[type="text"]:hover {
   border-top-color: #3e3e3e;
   padding: .15em .25em;
   border-radius: 0em;
+  box-shadow: none;
 }
