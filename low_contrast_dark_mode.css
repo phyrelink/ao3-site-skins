@@ -312,6 +312,7 @@ span.series .divider {
 input[type="file"],
 input[type="submit"],
 button,
+button[type="submit"],
 .current,
 .actions label,
 #header .actions a {
@@ -327,7 +328,8 @@ button,
 .actions a:focus,
 #dashboard a:focus,
 .actions li input[type="submit"]:hover,
-input[type="submit"]:hover {
+input[type="submit"]:hover,
+button[type="submit"]:hover {
   background: #3e3e3e;
   color: #cecece;
   border-color: #3e3e3e;
